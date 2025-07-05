@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Sanjana Bishnoi – Designer Portfolio
 
-First, run the development server:
+This is a fully custom-designed and developed portfolio website for **Sanjana Bishnoi**, the designer of my team. Every section, layout decision, interaction, and animation was carefully crafted by me **Priyanshu Tiwari** to reflect a minimal, high-end, and handcrafted digital presence that showcases her work with clarity and personality.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Unlike generic portfolio templates, this project was imagined, structured, and built entirely from scratch — with the intent to stand out as a branded experience rather than a resume on the web.
+
+---
+
+## Project Overview
+
+The portfolio includes **three thoughtfully structured pages**, each with a distinct purpose and a consistent aesthetic tone:
+
+- **Home (Landing) Page**  
+  A clean hero section introducing Sanjana with visual design elements that reflect her personality and skill.
+
+- **About Page**  
+  A deeper dive into her background, design education, values, and approach — structured to build trust and identity.
+
+- **Work Page**  
+  A grid-style showcase of handpicked projects, using hover interactions, subtle animations, and responsive layout to give her work the space and elegance it deserves.
+
+Every component and interaction was designed to enhance visual clarity and reduce cognitive load — without compromising creativity.
+
+---
+
+## Tech Stack
+
+This project is built with a modern frontend stack, focusing on developer efficiency and performance without sacrificing design flexibility.
+
+- **Next.js** – Fast React-based framework with routing and SSR capability
+- **Tailwind CSS** – Utility-first styling for highly customizable and clean layout control
+- **TypeScript** – Safer, scalable development with strict typing
+- **Framer Motion** – Used selectively for animations and micro-interactions
+- **Lucide Icons** – Minimal icon set for consistent visual language
+- **Shadcn/UI (optional)** – For a few base UI components where needed
+
+---
+
+## Features
+
+- **Fully Responsive Design** – Works seamlessly across all devices
+- **Handcrafted UI** – Every visual detail was coded manually, not from libraries
+- **Clean, Modern Aesthetic** – Matches the tone of a premium portfolio
+- **Optimized Performance** – Lightweight and fast-loading pages
+- **Modular File Structure** – Easy to extend and maintain
+- **Built for Branding** – Unlike portfolios that feel generic, this was made to reflect identity and trust
+
+---
+
+## Folder Structure
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+sanjana-portfolio/
+├── components/     # Reusable UI elements (cards, sections, layouts)
+├── pages/          # Next.js routing pages (index, about, work)
+├── public/         # Static assets: images, icons, preview files
+├── styles/         # Global and page-specific styles (tailwind setup)
+├── data/           # Structured content used on each page (JSON/TS)
+├── tsconfig.json   # TypeScript config
+└── README.md       # Project documentation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+````
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+> You can add preview images here by uploading them to `/public` and using:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```markdown
+![Homepage Preview](./public/homepage.png)
+![Work Page Preview](./public/work-preview.png)
+````
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This helps visitors on GitHub quickly see what the portfolio looks like.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Getting Started (For Developers)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Clone and run locally with:
+
+```bash
+git clone https://github.com/priyanshu-tiwariii/sanjana-portfolio.git
+cd sanjana-portfolio
+npm install
+npm run dev
+```
+
+Make sure you’re using **Node.js 18+** and **npm** or **pnpm** for dependency management.
+
+---
+
+## Live Website
+
+View the deployed version here:
+[https://portfolio-sanjana-sigma.vercel.app](https://portfolio-sanjana-sigma.vercel.app)
+
+---
+
+## Developer
+
+This project was fully built by **Priyanshu Tiwari** with deep attention to detail, design, and brand communication.
+GitHub: [@priyanshu-tiwariii](https://github.com/priyanshu-tiwariii)
+
+---
+
+## License
+
+This is a personal and collaborative project.
+Design assets belong to **Sanjana Bishnoi**.
+Development and code are authored by **Priyanshu Tiwari**.
+Please do not reuse without permission.
+
