@@ -53,8 +53,9 @@ This project is built with a modern frontend stack, focusing on developer effici
 ```
 
 sanjana-portfolio/
-├── components/     # Reusable UI elements (cards, sections, layouts)
-├── pages/          # Next.js routing pages (index, about, work)
+├── components/ui   # Reusable UI elements (cards, sections, layouts)
+├── app/pages/      # Next.js routing pages (index, about, work)
+├── elements/       # Elements that could be use at different pages (like header, footer)
 ├── public/         # Static assets: images, icons, preview files
 ├── styles/         # Global and page-specific styles (tailwind setup)
 ├── data/           # Structured content used on each page (JSON/TS)
