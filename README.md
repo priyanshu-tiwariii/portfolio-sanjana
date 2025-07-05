@@ -3,7 +3,7 @@
 
 This is a fully custom-designed and developed portfolio website for **Sanjana Bishnoi**, the designer of my team. Every section, layout decision, interaction, and animation was carefully crafted by me **Priyanshu Tiwari** to reflect a minimal, high-end, and handcrafted digital presence that showcases her work with clarity and personality.
 
-Unlike generic portfolio templates, this project was imagined, structured, and built entirely from scratch — with the intent to stand out as a branded experience rather than a resume on the web.
+Unlike generic portfolio templates, this project was imagined, structured, and built entirely from scratch with the intent to stand out as a branded experience rather than a resume on the web.
 
 ---
 
@@ -15,12 +15,12 @@ The portfolio includes **three thoughtfully structured pages**, each with a dist
   A clean hero section introducing Sanjana with visual design elements that reflect her personality and skill.
 
 - **About Page**  
-  A deeper dive into her background, design education, values, and approach — structured to build trust and identity.
+  A deeper dive into her background, design education, values, and approach structured to build trust and identity.
 
 - **Work Page**  
   A grid-style showcase of handpicked projects, using hover interactions, subtle animations, and responsive layout to give her work the space and elegance it deserves.
 
-Every component and interaction was designed to enhance visual clarity and reduce cognitive load — without compromising creativity.
+Every component and interaction was designed to enhance visual clarity and reduce cognitive load without compromising creativity.
 
 ---
 
@@ -64,17 +64,22 @@ sanjana-portfolio/
 ````
 
 ---
-
 ## Screenshots
 
-> You can add preview images here by uploading them to `/public` and using:
+Below are some preview images of the portfolio. These provide a quick look at the layout, styling, and structure of the site across its three main sections.
 
-```markdown
-![Homepage Preview](./public/homepage.png)
-![Work Page Preview](./public/work-preview.png)
-````
+### 🏠 Homepage
+![Homepage Preview](./public/Screenshot%202025-07-05%20233635.png)
 
-This helps visitors on GitHub quickly see what the portfolio looks like.
+---
+
+### 👤 About Page
+![About Page Preview](./public/Screenshot%202025-07-05%20233726.png)
+
+---
+
+### 🎨 Work Page
+![Work Page Preview](./public/Screenshot%202025-07-05%20233740.png)
 
 ---
 
